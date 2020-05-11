@@ -7,8 +7,10 @@ let
     rev = "d4879bfd2b595d7fbd37da1a7bea5d0361975eb3";
     sha256 = "0kzwg3mwziwx378kvbzhayy65abvk1axi12zvf2f92cs53iridwh";
   }) { inherit pkgs; };
+  vscode = import ./nix/vscode.nix { inherit pkgs; };
 
 in pkgs.mkShell {
-  buildInputs = [ easy-ps.purs easy-ps.spago easy-ps.spago2nix ];
+
+  buildInputs = with easy-ps; [ purs spago spago2nix purty vscode ];
 }
 
