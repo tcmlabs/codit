@@ -1,0 +1,9 @@
+{
+  "name": "codit",
+  "version": "1.0.0",
+  "description": "Code audit made simple",
+  "main": "index.js",
+  "author": "Jean-Baptiste Musso <jeanbaptiste@tcmlabs.fr>",
+  "license": "MIT",
+  "private": true
+}
