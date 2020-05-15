@@ -5,5 +5,8 @@
   "main": "index.js",
   "author": "Jean-Baptiste Musso <jeanbaptiste@tcmlabs.fr>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "eslint": "^7.0.0"
+  }
 }
